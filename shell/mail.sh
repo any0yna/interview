@@ -7,7 +7,7 @@
 #***************************************
 
 send_mail(){
-    usermail=renh@info2soft.com
+    usermail=any000yna@163.com
     echo $1 | mail -s "AutoError" -a $2 ${usermail}
 }
 

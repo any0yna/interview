@@ -1,7 +1,7 @@
 【shell】  
 工具名称：shell  
 工具技术：shell  
-工具平台：centos 6,centos 7,suse ,ubuntu
+工具平台：centos 6,centos 7,suse ,ubuntu  
 工具目的：间隔一天打印机器的CPU，内存，磁盘以及网络延迟等信息  
          如果CPU或Mem过高，就发送邮件通知  
 

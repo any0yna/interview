@@ -14,7 +14,8 @@ get_SYSregular_el(){
     echo -e "Machine Operating System Version : `cat /etc/redhat-release`" &>>${regpath}
     echo -e "Machine CPU number: `awk '/processor/{core++} END{print core}' /proc/cpuinfo`" &>>${regpath}
     echo -e "Machine CPU:`LANG=C lscpu | awk -F: '/Model name/ {print $2}'`" &>>${regpath}
-    echo -e "Machine Disk Info: \n`fdisk -l | grep ^Disk | awk 'BEGIN { FS="Disk /"} $1=="" {print "/"$2}'`" &>>${regpath}
+    echo -e "Machine Disk Info: \n`fdisk -l | grep ^Disk | \
+             awk 'BEGIN { FS="Disk /"} $1=="" {print "/"$2}'`" &>>${regpath}
     echo -e "Machine All UsersNumber : `sed -n '$=' /etc/passwd`" &>>${regpath}
 }
 
@@ -26,7 +27,8 @@ get_SYSregular_suse(){
     echo -e "Machine Operating System Version : `cat /etc/issue`" &>>${regpath}
     echo -e "Machine CPU number: `awk '/processor/{core++} END{print core}' /proc/cpuinfo`" &>>${regpath}
     echo -e "Machine CPU:`LANG=C lscpu | awk -F: '/Model name/ {print $2}'`" &>>${regpath}
-    echo -e "Machine Disk Info: \n`fdisk -l | grep ^Disk | awk 'BEGIN { FS="Disk /"} $1=="" {print "/"$2}'`" &>>${regpath}
+    echo -e "Machine Disk Info: \n`fdisk -l | grep ^Disk | \
+             awk 'BEGIN { FS="Disk /"} $1=="" {print "/"$2}'`" &>>${regpath}
     echo -e "Machine All UsersNumber : `sed -n '$=' /etc/passwd`" &>>${regpath}
 }
 

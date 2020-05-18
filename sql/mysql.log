@@ -1,0 +1,59 @@
+
+ 2020-05-13T13:47:16+0800 ***[ MYSQL Status : Running ]***
+
+ 2020-05-13T13:47:16+0800 ***[ MYSQL RUN_TIME(s) :294 ]***
+
+ 2020-05-13T13:47:16+0800 ***[ DATABASES_NUMBER= 19, Database
+information_schema
+any_test1
+any_test10
+any_test2
+any_test3
+any_test4
+any_test5
+any_test6
+any_test7
+any_test8
+any_test9
+db_1000W
+db_100W
+db_1W
+db_base
+db_drop
+db_tb100
+mysql
+test ]***
+
+ 2020-05-13T13:47:16+0800 ***[ MYSQL MAX_CONNECTION_NUMBER=151 ]***
+
+ 2020-05-13T13:47:16+0800 ***[ db_base.tb_time : 
+ any_date	any_time	any_datetime
+2020-05-06	10:57:26	2020-05-06 10:57:26 ]***
+
+ 2020-05-13T13:47:16+0800 ***[ MYSQL SELECT_NUMBER= 19 ]***
+
+ 2020-05-13T13:47:16+0800 ***[ MYSQL UPDATE_NUMBER= 0 ]***
+
+ 2020-05-13T13:47:16+0800 ***[ MYSQL DELETE_NUMBER= 0 ]***
+
+ 2020-05-13T13:47:16+0800 ***[ MYSQL INSERT_NUMBER=  ]***
+
+ 2020-05-13T13:47:16+0800 ***[ MYSQL QUESTIONS_NUMBER=  ]***
+----------[start_block3000 : MYSQL_CONF_BASE ----------]
+
+ 2020-05-14T15:09:48+0800 ***[ cltadm mysql_conf -u root -p EfIM2M0wQ4NjIKccfrRnum0eS284teBMrW8CSsQnHv7QkOcNTu/2yCZaTNea1HPqXNKzcRzY3y4= -P 3306 -t 200 -m /usr/bin/  ]***
+----------[end_block3000 : MYSQL_CONF_BASE ----------]
+----------[start_block3002 : MYSQL_GETCONF_BASE ----------]
+
+ 2020-05-14T15:09:48+0800 ***[ cltadm mysql_get_conf ]***
+username:root
+password:ezRWPoF0
+mysqlpath:/usr/bin/
+timeout:200
+port:3306
+----------[end_block3002 : MYSQL_GETCONF_BASE ----------]
+----------[start_block3001 : MYSQL_ENUM_BASE ----------]
+
+ 2020-05-14T15:09:48+0800 ***[ cltadm mysql_enum ]***
+mysql_enum dbname: information_schema;any_test1;any_test10;any_test2;any_test3;any_test4;any_test5;any_test6;any_test7;any_test8;any_test9;db_1000W;db_100W;db_1W;db_base;db_drop;db_tb100;mysql;test;
+----------[end_block3001 : MYSQL_ENUM_BASE ----------]

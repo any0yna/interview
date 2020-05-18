@@ -17,11 +17,6 @@ MYSQL_TB100=mysql_tb_100.sql
 MYSQL_DROP=mysql_drop.sql
 MYSQL_LOG=${PATH_BASE}sql/mysql.log
 
-#SUCCESS="echo -en \\033[1;32m"
-#FAILURE="echo -en \\033[1;31m"
-#WARNING="echo -en \\033[1;33m"
-#NORMAL="echo -en \\033[0;39m"
-
 check_mysqlStatus(){
     ${MYSQL_ADMIN} ping &> /dev/null
     if [ $? -ne 0 ];then

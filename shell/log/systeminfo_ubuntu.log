@@ -1,0 +1,52 @@
+Machine IP :
+127.0.0.1/8
+172.20.33.62/20
+Machine Name : localhost
+Machine Kernel : 4.2.0-27-generic
+Machine Operating System Version : Ubuntu 14.04.4 LTS 
+ \l
+Machine CPU number: 4
+Machine CPU:
+Machine Disk Info: 
+/dev/sda: 21.5 GB, 21474836480 bytes
+/dev/mapper/localhost--vg-root: 19.1 GB, 19050528768 bytes
+/dev/mapper/localhost--vg-swap_1: 2143 MB, 2143289344 bytes
+Machine All UsersNumber : 31
+memfree=1983 swapfree=1983
+uptime 13:23:27 up 5 min, 3 users, load average: 0.01, 0.07, 0.05
+Disk Info:
+/dev/sda: 21.5 GB, 21474836480 bytes
+/dev/mapper/localhost--vg-root: 19.1 GB, 19050528768 bytes
+/dev/mapper/localhost--vg-swap_1: 2143 MB, 2143289344 bytes
+
+
+
+
+Interrupt Number:566
+Context switch Number :689
+Ten processes with the largest memory:
+sshd            12656
+sshd            12788
+smbd            14432
+libvirtd        19908
+postgres        21060
+named           27532
+mysqld          53104
+apt-get         63172
+sdatad          63280
+java            96704
+Ten processes with the largest CPU:
+rpcserver        0.2
+I2Availability   0.3
+libvirtd         0.3
+rcu_sched        0.4
+sdatad           0.4
+mysqld           0.5
+rcuos/0          0.6
+init             1.0
+apt-get          1.2
+java             2.3
+Network card traffic
+NETNAME  IN(bytes)  OUT(bytes)
+eth0:    742181     129093
+lo:      43321      43321

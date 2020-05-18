@@ -1,0 +1,48 @@
+Machine IP :
+127.0.0.1/8
+172.20.33.78/20
+Machine Name : linux-h26h
+Machine Kernel : 4.12.14-94.41-default
+Machine Operating System Version : 
+Welcome to SUSE Linux Enterprise Server 12 SP4  (x86_64) - Kernel  (\l).
+Machine CPU number: 2
+Machine CPU:            Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+Machine Disk Info: 
+/dev/sda: 40 GiB, 42949672960 bytes, 83886080 sectors
+Machine All UsersNumber : 30
+memfree=3684 swapfree=3684
+uptime 14:08pm up 3:38, 5 users, load average: 0.06, 0.14, 0.09
+Disk Info:
+/dev/sda: 40 GiB, 42949672960 bytes, 83886080 sectors
+
+
+
+
+Interrupt Number:793
+Context switch Number :592
+Ten processes with the largest memory:
+VGAuthService   13692
+polkitd         22528
+vmtoolsd        33312
+gnome-terminal- 37912
+gnome-settings- 38768
+nautilus        42096
+sdatad          44772
+Xorg            61524
+srepd           129320
+gnome-shell     223516
+Ten processes with the largest CPU:
+xfs-log/sda3     0.0
+xfs-reclaim/sda  0.0
+xfs_mru_cache    0.0
+xfsaild/sda3     0.0
+xfsalloc         0.0
+sdatad           0.1
+I2Availability   0.2
+gnome-shell      0.2
+srepd            0.2
+snapperd         0.3
+Network card traffic
+NETNAME  IN(bytes)  OUT(bytes)
+lo:      2325749    2325749
+eth0:    601901946  468992036

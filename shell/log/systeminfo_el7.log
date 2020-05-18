@@ -1,0 +1,69 @@
+Machine IP :
+127.0.0.1/8
+172.20.77.175/21
+192.168.122.1/24
+Machine Name : localhost.localdomain
+Machine Kernel : 3.10.0-957.el7.x86_64
+Machine Operating System Version : CentOS Linux release 7.7.1908 (Core)
+Machine CPU number: 4
+Machine CPU:            Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+Machine Disk Info: 
+/dev/sda: 53.7 GB, 53687091200 bytes, 104857600 sectors
+/dev/sdb: 107.4 GB, 107374182400 bytes, 209715200 sectors
+/dev/sdc: 107.4 GB, 107374182400 bytes, 209715200 sectors
+/dev/sdd: 10.7 GB, 10737418240 bytes, 20971520 sectors
+/dev/sde: 21.5 GB, 21474836480 bytes, 41943040 sectors
+/dev/mapper/centos-root: 47.2 GB, 47240445952 bytes, 92266496 sectors
+/dev/mapper/centos-swap: 5368 MB, 5368709120 bytes, 10485760 sectors
+Machine All UsersNumber : 45
+memfree=15885 swapfree=15885
+uptime 21:30:25 up 3 days, 20:22, 5 users, load average: 0.09, 0.22, 0.13
+Disk Info:
+/dev/sda: 53.7 GB, 53687091200 bytes, 104857600 sectors
+/dev/sdb: 107.4 GB, 107374182400 bytes, 209715200 sectors
+/dev/sdc: 107.4 GB, 107374182400 bytes, 209715200 sectors
+/dev/sdd: 10.7 GB, 10737418240 bytes, 20971520 sectors
+/dev/sde: 21.5 GB, 21474836480 bytes, 41943040 sectors
+/dev/mapper/centos-root: 47.2 GB, 47240445952 bytes, 92266496 sectors
+/dev/mapper/centos-swap: 5368 MB, 5368709120 bytes, 10485760 sectors
+
+[sr0] Average number io disks :0.00 [sda] Average number io disks :2.00 [sdb] Average number io disks :0.00 [sdc] Average number io disks :0.00 [sdd] Average number io disks :0.00 [sde] Average number io disks :0.00 [centos-root] Average number io disks :2.00 [centos-swap] Average number io disks :0.00
+
+[sr0] Average read/write sector per second :0.00 0.00
+[sda] Average read/write sector per second :0.00 22.67
+[sdb] Average read/write sector per second :0.00 0.00
+[sdc] Average read/write sector per second :0.00 0.00
+[sdd] Average read/write sector per second :0.00 0.00
+[sde] Average read/write sector per second :0.00 0.00
+[centos-root] Average read/write sector per second :0.00 22.67
+[centos-swap] Average read/write sector per second :0.00 0.00
+Interrupt Number:866
+Context switch Number :586
+Ten processes with the largest memory:
+gsd-color       14600
+sdatad          14672
+gsd-keyboard    15448
+gsd-media-keys  17576
+polkitd         17616
+libvirtd        18548
+tuned           19452
+X               24684
+i2block-client  31428
+gnome-shell     128876
+Ten processes with the largest CPU:
+zed              0.0
+z_vdev_file      0.0
+zvol             0.0
+avahi-daemon     0.1
+i2block-client   0.1
+main.sh          0.1
+srepd            0.1
+vmtoolsd         0.1
+sdatad           0.2
+I2Availability   0.3
+Network card traffic
+NETNAME      IN(bytes)   OUT(bytes)
+ens192:      2893283809  21600226764
+lo:          76453890    76453890
+virbr0-nic:  0           0
+virbr0:      0           0

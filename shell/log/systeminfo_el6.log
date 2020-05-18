@@ -1,0 +1,72 @@
+Machine IP :
+127.0.0.1/8
+172.20.77.168/20
+Machine Name : localhost.localdomain
+Machine Kernel : 2.6.32-431.el6.x86_64
+Machine Operating System Version : CentOS release 6.5 (Final)
+Machine CPU number: 4
+Machine CPU:
+Machine Disk Info: 
+/dev/sda: 107.4 GB, 107374182400 bytes
+/dev/sdf: 107.4 GB, 107374182400 bytes
+/dev/sdc: 107.4 GB, 107374182400 bytes
+/dev/sde: 107.4 GB, 107374182400 bytes
+/dev/sdb: 107.4 GB, 107374182400 bytes
+/dev/sdd: 107.4 GB, 107374182400 bytes
+/dev/mapper/VolGroup-lv_root: 53.7 GB, 53687091200 bytes
+/dev/mapper/VolGroup-lv_swap: 5150 MB, 5150605312 bytes
+/dev/mapper/VolGroup-lv_home: 48.0 GB, 48008003584 bytes
+Machine All UsersNumber : 35
+memfree=5757 swapfree=5757
+uptime 13:40:39 up 10 days, 22:52, 6 users, load average: 0.22, 0.09, 0.03
+Disk Info:
+/dev/sda: 107.4 GB, 107374182400 bytes
+/dev/sdf: 107.4 GB, 107374182400 bytes
+/dev/sdc: 107.4 GB, 107374182400 bytes
+/dev/sde: 107.4 GB, 107374182400 bytes
+/dev/sdb: 107.4 GB, 107374182400 bytes
+/dev/sdd: 107.4 GB, 107374182400 bytes
+/dev/mapper/VolGroup-lv_root: 53.7 GB, 53687091200 bytes
+/dev/mapper/VolGroup-lv_swap: 5150 MB, 5150605312 bytes
+/dev/mapper/VolGroup-lv_home: 48.0 GB, 48008003584 bytes
+
+[sr0] Average number io disks :0.00 [sda] Average number io disks :0.33 [sdf] Average number io disks :0.00 [sdc] Average number io disks :0.00 [sde] Average number io disks :0.00 [sdb] Average number io disks :0.00 [sdd] Average number io disks :0.00 [VolGroup-lv_root] Average number io disks :3.33 [VolGroup-lv_swap] Average number io disks :0.00 [VolGroup-lv_home] Average number io disks :0.00
+
+[sr0] Average read/write sector per second :0.00 0.00
+[sda] Average read/write sector per second :1.34 13.36
+[sdf] Average read/write sector per second :0.00 0.00
+[sdc] Average read/write sector per second :0.00 0.00
+[sde] Average read/write sector per second :0.00 0.00
+[sdb] Average read/write sector per second :0.00 0.00
+[sdd] Average read/write sector per second :0.00 0.00
+[VolGroup-lv_root] Average read/write sector per second :1.34 13.36
+[VolGroup-lv_swap] Average read/write sector per second :0.00 0.00
+[VolGroup-lv_home] Average read/write sector per second :0.00 0.00
+Interrupt Number:338
+Context switch Number :420
+Ten processes with the largest memory:
+gnome-session    7876
+gnome-power-man  8664
+metacity         9912
+i2block-client  12092
+gnome-settings- 13052
+gdm-simple-gree 15904
+Xorg            16472
+sdatad          18404
+mysqld          25472
+I2Availability  27048
+Ten processes with the largest CPU:
+vmmemctl         0.0
+vmw_pvscsi_wq_3  0.0
+watchdog/0       0.0
+watchdog/1       0.0
+watchdog/2       0.0
+watchdog/3       0.0
+wpa_supplicant   0.0
+Xorg             0.0
+sdatad           0.1
+I2Availability   0.2
+Network card traffic
+NETNAME          IN(bytes)  OUT(bytes)
+lo:218087256     3269221    3269221
+eth0:5302925724  79634884   1221277

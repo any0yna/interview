@@ -1,7 +1,7 @@
 #!/bin/bash
 #***************************************
 #Author     :any000yna@163.com
-#Date       :2020-05-14
+#Date       :2020-05-18
 #Description:
 #GET:Kernel,Release Name,Hostname,IP,Memory,CPU Load,Disk Info,Login User,Process Num
 #    AllUserNum,CPUNum,CPU Info,Network

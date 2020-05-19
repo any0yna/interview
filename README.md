@@ -7,8 +7,8 @@
 
 [shell]
 Tool Name:shell  
-Tool Technology:shell  
-Tool Platform: centos 6,centos 7,suse,ubuntu
+Tool Technology:shell    
+Tool Platform: centos 6,centos 7,suse,ubuntu  
 Tool Target: Print the machine's CPU, memory, disk, and network latency at an interval of one day  
              If the CPU or Mem is too high, an email notification is sent  
 

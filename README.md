@@ -5,7 +5,7 @@
 工具目的：间隔一天打印机器的CPU，内存，磁盘以及网络延迟等信息  
          如果CPU或Mem过高，就发送邮件通知  
 
-[shell]
+[shell]  
 Tool Name:shell  
 Tool Technology:shell    
 Tool Platform: centos 6,centos 7,suse,ubuntu  
